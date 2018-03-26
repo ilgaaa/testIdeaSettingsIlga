@@ -1,0 +1,13 @@
+<application>
+  <component name="ToStringTemplates">
+    <option name="defaultTempalteName" value="LottolandToString" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="LottolandToString" />
+          <option name="template" value="public java.lang.String toString() {&#10;#if ($class.hasSuper)&#10;return de.dla.platform.util.ToStringHelper.appendToString(super.toString(),&#10;#else&#10;return de.dla.platform.util.ToStringHelper.buildToString(this,&#10;#end&#10;#set ( $i = 1 )&#10;#foreach ($member in $members)&#10;&quot;$member.name&quot;, $member.accessor#if ($i != $members.size()),&#10;#end&#10;    #set ( $i = $i + 1 )&#10;#end);&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>

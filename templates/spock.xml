@@ -1,0 +1,6 @@
+<templateSet group="spock">
+  <template name="spgwt" value="def &quot;should $NAME$&quot;() {&#10;    given: &quot;&quot;&#10;    when: &quot;&quot;&#10;    then: &quot;&quot;&#10;}" description="Spock Given-When-Then" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
