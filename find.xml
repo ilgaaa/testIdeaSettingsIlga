@@ -6,19 +6,6 @@
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*Re.java</mask>
-      <mask>*Rew.java</mask>
-      <mask>*Rewr.java</mask>
-      <mask>*Rewri.java</mask>
-      <mask>*Rewrit.java</mask>
-      <mask>*Rewriter.java</mask>
-      <mask>*.groov</mask>
-      <mask>*.groo</mask>
-      <mask>*.gro</mask>
-      <mask>*.gr</mask>
-      <mask>*.g</mask>
-      <mask>*.xml</mask>
-      <mask>*.groovy</mask>
       <mask>*.groovy,</mask>
       <mask>*.groovy, *</mask>
       <mask>*.groovy, *TE</mask>
@@ -36,6 +23,19 @@
       <mask>*.xhtml</mask>
       <mask>*.groovy,</mask>
       <mask>*.java</mask>
+      <mask>*.java,</mask>
+      <mask>*.java,</mask>
+      <mask>*.java, -</mask>
+      <mask>*.java, -*</mask>
+      <mask>*.java, -*T</mask>
+      <mask>*.java, -*Te</mask>
+      <mask>*.java, -*Tes</mask>
+      <mask>*.java, -*Test</mask>
+      <mask>*.java, -*Test.</mask>
+      <mask>*.java, -*Test.ja</mask>
+      <mask>*.java, -*Test.java</mask>
+      <mask>*.java, *Test.java</mask>
+      <mask>*.java, !*Test.java</mask>
     </recentFileMasks>
   </component>
 </application>
