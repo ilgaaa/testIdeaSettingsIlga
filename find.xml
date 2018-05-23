@@ -28,16 +28,16 @@
       <mask>*Test.j</mask>
       <mask>*Test.ja</mask>
       <mask>*Test.java</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.xht</mask>
-      <mask>*.j</mask>
-      <mask>*.js</mask>
       <mask>*.xml</mask>
       <mask>*.xm</mask>
       <mask>*.x</mask>
       <mask>*.xh</mask>
       <mask>*.xhtml</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
