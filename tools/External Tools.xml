@@ -1,5 +1,5 @@
 <toolSet name="External Tools">
-  <tool name="compass" description="complie .scss to .css files" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="compass" description="complie .scss to .css files" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/compass" />
       <option name="PARAMETERS" value="compile" />
@@ -13,7 +13,7 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/work/misc" />
     </exec>
   </tool>
-  <tool name="compass mobile" description="complie .scss to .css files" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="compass mobile" description="complie .scss to .css files" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/compass" />
       <option name="PARAMETERS" value="compile" />
@@ -27,7 +27,7 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/work/misc" />
     </exec>
   </tool>
-  <tool name="mongo docker" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="mongo docker" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/bin/sh" />
       <option name="PARAMETERS" value="docker-mongo-start.sh" />
