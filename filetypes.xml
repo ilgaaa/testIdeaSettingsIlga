@@ -3,6 +3,7 @@
     <extensionMap>
       <removed_mapping ext="es" approved="true" type="ActionScript" />
       <mapping ext="es" type="ECMAScript 6" />
+      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
