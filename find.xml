@@ -5,6 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.xhtml" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -16,7 +17,7 @@
     <mask>*.properties</mask>
     <mask>*.Java</mask>
     <mask>*.groovy</mask>
-    <mask>*.xhtml</mask>
     <mask>*.java</mask>
+    <mask>*.xhtml</mask>
   </component>
 </application>
